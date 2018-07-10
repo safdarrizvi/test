@@ -1,0 +1,16 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Test Storage",
+  "Parameters": {
+    "Branch": {
+      "Type": "String",
+      "Default": "master"
+    }
+  },
+    "Resources": {
+        "TestBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {"BucketName" : "safdar123abbas"}
+        }
+    }
+}
